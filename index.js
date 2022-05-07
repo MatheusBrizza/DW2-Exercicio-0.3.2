@@ -23,3 +23,8 @@ const numeroTarefasNaoConcluidas = tarefas.filter(
   (tarefa) => tarefa.concluida === false
 );
 console.log(numeroTarefasNaoConcluidas.length);
+
+const tarefasCriadasMenosUmMes = tarefas
+  .filter((tarefa) => tarefa.concluida === true)
+  .some((tarefa) => tarefa.dias < 30);
+console.log(tarefasCriadasMenosUmMes);

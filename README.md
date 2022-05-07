@@ -24,7 +24,7 @@ const tarefas = [
 
 **Enunciado 2:** Faça uma função que retorna o numero de tarefas não concluídas.
 
-**Enunciado 3:** Faça uma função que verifica se existem tarefas concluídas abaixo de 30 dias.
+**Enunciado 3:** Faça uma função que verifica se existem tarefas criadas e concluidas abaixo de 30 dias.
 
 run `node index.js` in the terminal
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-wm1nbf)
