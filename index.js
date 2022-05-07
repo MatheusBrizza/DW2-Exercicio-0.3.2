@@ -19,7 +19,4 @@ console.log(tarefasConcluidas);
 const numeroTarefasNaoConcluidas = tarefas.filter(
   (tarefa) => tarefa.concluida === false
 );
-console.log(numeroTarefasNaoConcluidas);
-
-
-const 
+console.log(numeroTarefasNaoConcluidas.length);
